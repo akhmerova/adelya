@@ -1,7 +1,7 @@
-package ru.kpfu.itis.group11403.akhmerova;
+package ru.kpfu.itis.group11403.akhmerova.DivideAndConquer;
 
 /**
- * Created by Adelya on 12.02.2015.
+ * Created by Adelya on 15.03.2015.
  */
 public class DivideAndConquer {
 
@@ -53,8 +53,8 @@ public class DivideAndConquer {
 
         double[] ar = {20, 2, 4, 1, 13, 15, 56};
         double max = findMax(ar, 0, ar.length - 1);
-        System.out.println(max);
+        System.out.println("Max element - " + max);
         double min = findMin(ar, 0, ar.length - 1);
-        System.out.println(min);
+        System.out.println("Min element - " + min);
     }
 }
